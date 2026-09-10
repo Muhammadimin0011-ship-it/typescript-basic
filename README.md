@@ -1,0 +1,1 @@
+men bu repoda typescriptni organayotganda qanday yangi narsalar bolsa ushalarni qoshib ishlatib boraman
