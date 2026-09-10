@@ -24,11 +24,32 @@ const user: User = {
   name: "Muhammademin",
   age: 15,
   email: "example@gmail.com",
-  skills: [
-    {
-      development: "html, css, js, react, node, dart, ts",
-      language: "en, ru, uz",
-    },
-  ],
+  skills: ["html, css, js, react, node, dart, ts"],
   isAdmin: false,
+};
+
+type User = {
+  name: string;
+  age: number;
+  email: string;
+  skills: string[];
+  isAdmin: boolean;
+  phone?: string;
+};
+
+const user1: User = {
+  name: "Muhammademin",
+  age: 15,
+  email: "example@gmail.com",
+  skills: ["html", "css", "js", "ts", "react"],
+  isAdmin: false,
+  phone: "991234567",
+};
+
+const user2: User = {
+  name: "toshmat",
+  age: 19,
+  email: "eexample@gmail.com",
+  skills: ["nothing"],
+  isAdmin: true,
 };
