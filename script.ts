@@ -1,15 +1,3 @@
-type User = {
-  name: string;
-  age: number;
-  isStudent: boolean;
-};
-
-function User({ name, age, isStudent }: User): void {
-  console.log(name);
-  console.log(age);
-  console.log(isStudent);
-}
-
 const student: Student = {
   name: "Muhammademin",
   age: 15,
@@ -25,9 +13,22 @@ const product: Product = {
 };
 
 const car: Car = {
-  brand: 'Cadillac',
+  brand: "Cadillac",
   model: "escalate",
   year: 2022,
   isElectric: false,
-  price: 2000000
-}
+  price: 2000000,
+};
+
+const user: User = {
+  name: "Muhammademin",
+  age: 15,
+  email: "example@gmail.com",
+  skills: [
+    {
+      development: "html, css, js, react, node, dart, ts",
+      language: "en, ru, uz",
+    },
+  ],
+  isAdmin: false,
+};
