@@ -69,3 +69,17 @@ type User = {
 };
 
 type SafeUser = Omit<User, "email">;
+
+//Record - malim bir key va uning typeni belgilash uchun ishlatilinadi
+
+const scores: Scores = {
+  math: 90,
+  english: 85,
+  programming: 100,
+};
+
+//bu notog'ri boladi
+ 
+const scores: Scores = {
+  math: "90",
+};
