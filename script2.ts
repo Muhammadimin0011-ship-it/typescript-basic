@@ -79,7 +79,20 @@ const scores: Scores = {
 };
 
 //bu notog'ri boladi
- 
+
 const scores: Scores = {
   math: "90",
 };
+
+//Exclude - bu union ichidagi typeni olib tshlaydi
+
+type Role = "admin" | "user" | "guest";
+
+type UserRole = Exclude<Role, "guest">;
+
+//Extract - bu type ni ichida oziga mos kelubchini olib qoladi
+
+
+type Colors = "red" | "blue" | "green";
+
+type Result = Extract<Colors, "blue" | "yellow">;
