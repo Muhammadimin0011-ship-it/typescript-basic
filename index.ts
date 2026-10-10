@@ -39,3 +39,8 @@ const m: [string, number] = ["muhammademin", 123]
 // Object: oddiy obyekt
 
 const book: {title: string, price: number} = {title: "atomic habits", price: 50000}
+
+
+function xatoBer(xabar: string): never {
+  throw new Error(xabar);   // funksiya hech qachon tugamaydi
+}
